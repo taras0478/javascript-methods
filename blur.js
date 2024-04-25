@@ -1,6 +1,6 @@
-const merge = (a, b) => [...a, ...b];
-console.log(false === '0');
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const isArray = (arr) => Array.isArray(arr);
-console.log(1 +  +"2" + "2");
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const channelName = getChannelName(channel);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const fullName = name || 'buddy';
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
