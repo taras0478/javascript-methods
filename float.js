@@ -1,4 +1,4 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const uniqueArr = (arr) => [...new Set(arr)];
-console.log("0 && 1 = "+(0 && 1));
+function myAPITS(someString: string, someNum: number) { ... };
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
