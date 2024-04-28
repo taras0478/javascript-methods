@@ -1,4 +1,4 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const merge = (a, b) => a.concat(b);
+const toggleBool = () => (bool = !bool);
+const randomString = () => Math.random().toString(36).slice(2);
+var arr2 = arr1.reverse();
