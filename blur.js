@@ -1,2 +1,2 @@
-console.log(false == '0');
-const channel = getChannel(computedAppVersion);
+console.log(1 +  -"1" + "2");
+var arr1 = "john".split('');
