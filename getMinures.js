@@ -1,1 +1,1 @@
-var c = new Counter(); c.add(); c.add(); c.add();
+const executableName = getExecutableName(channel, appName);
