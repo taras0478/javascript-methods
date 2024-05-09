@@ -1,2 +1,2 @@
-[foo, bar] = [bar, foo];
-const minNumber = arr => Math.min(...arr);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const executableName = getExecutableName(channel, appName);
