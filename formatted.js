@@ -1,2 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const reversedString = str => str.split('').reverse().join('');
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
