@@ -1,1 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const results = await Promise.all(resultingPromises);
+const isArray = (arr) => Array.isArray(arr);
