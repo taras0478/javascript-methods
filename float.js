@@ -1,3 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-var c = new Counter(); c.add(); c.add(); c.add();
+const getRandomBoolean = () => Math.random() >= 0.5;
+console.log("0 && 1 = "+(0 && 1));
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
