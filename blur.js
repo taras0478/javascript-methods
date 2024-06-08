@@ -1,3 +1,1 @@
-const toggleBool = () => (bool = !bool);
-const repositoryRootPath = path.resolve(__dirname, '..');
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const updated = numbers.filter(element => element > 6);
