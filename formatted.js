@@ -1,2 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const results = await Promise.all(resultingPromises);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+function myAPITS(someString: string, someNum: number) { ... };
