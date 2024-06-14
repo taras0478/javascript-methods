@@ -1,1 +1,2 @@
-console.log(1 +  -"1" + "2");
+const minNumber = arr => Math.min(...arr);
+[foo, bar] = [bar, foo];
