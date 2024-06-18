@@ -1,2 +1,2 @@
-const minNumber = arr => Math.min(...arr);
-[foo, bar] = [bar, foo];
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+console.log(false === '0');
