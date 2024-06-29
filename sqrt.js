@@ -1,2 +1,2 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const fullName = name || 'buddy';
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const symbolsPath = path.join(buildOutputPath, 'symbols');
