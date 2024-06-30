@@ -1,2 +1,1 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-console.log(false === '0');
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
