@@ -1,2 +1,3 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const getRandomBoolean = () => Math.random() >= 0.5;
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
