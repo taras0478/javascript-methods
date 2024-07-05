@@ -1,2 +1,2 @@
-console.log(false === '0');
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+var DELIM_SIZE = 4;
+console.log(1 +  +"2" + "2");
