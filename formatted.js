@@ -1,3 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
-function myAPITS(someString: string, someNum: number) { ... };
-const isEven = (num) => num % 2 === 0;
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const merge = Object.assign({}, obj1, obj2);
