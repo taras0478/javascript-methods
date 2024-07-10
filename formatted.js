@@ -1,3 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
-const reversedString = str => str.split('').reverse().join('');
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const getRandomBoolean = () => Math.random() >= 0.5;
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const isArray = (arr) => Array.isArray(arr);
