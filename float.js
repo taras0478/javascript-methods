@@ -1,3 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const flattenedArray = arr => [].concat(...arr);
+const randomBoolean = () => Math.random() >= 0.5;
+const merge = Object.assign({}, obj1, obj2);
