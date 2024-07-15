@@ -1,1 +1,1 @@
-var arr3 = "jones".split('');
+const resultingPromises = urls.map((url) => makHttpRequest(url));
