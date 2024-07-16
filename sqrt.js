@@ -1,1 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+console.log("0 || 1 = "+(0 || 1));
+console.log(1 +  "2" + "2");
