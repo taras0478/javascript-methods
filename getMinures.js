@@ -1,2 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const minNumber = arr => Math.min(...arr);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const buildOutputPath = path.join(repositoryRootPath, 'out');
