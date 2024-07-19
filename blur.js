@@ -1,1 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const flattenedArray = arr => [].concat(...arr);
+const randomBoolean = () => Math.random() >= 0.5;
