@@ -1,2 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const stringReverse = str => str.split("").reverse().join("");
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const maxNumber = arr => Math.max(...arr);
