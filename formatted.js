@@ -1,3 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const maxNumber = arr => Math.max(...arr);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const randomBoolean = () => Math.random() >= 0.5;
