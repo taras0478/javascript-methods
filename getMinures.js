@@ -1,3 +1,2 @@
-var arr1 = "john".split('');
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const fullName = name || 'buddy';
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
