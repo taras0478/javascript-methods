@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+console.log( "A" - "B" + "2");
+console.log("1 || 2 = "+(1 || 2));
