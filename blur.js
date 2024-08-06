@@ -1,1 +1,3 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const isEven = (num) => num % 2 === 0;
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const maxNumber = arr => Math.max(...arr);
